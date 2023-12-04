@@ -1,0 +1,46 @@
+:root{
+    --defaultColor : rgb(0,168,182)
+}
+
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container > div > img{
+    width: 12vmax;
+}
+.destinations{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    height: 5vmax;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.fonts{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 0.5;
+    height: 5vmax;
+    
+}
+.fonts > button{
+    width: 6vmax;
+    height: 2.7vmax;
+    color: white;
+    background-color: var(--defaultColor);
+    border-radius: 5px;
+    border: 0;
+}
+.fonts > select{
+    width: 6vmax;
+    height: 2.7vmax;
+}
